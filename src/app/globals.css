@@ -7,7 +7,7 @@
 :root {
   --primary-color: #23a6f0;
   --secondary-color: #2dc071;
-  --dark-blue-color: #252b42;
+  --dark-blue-color: #252B42;
   --gray-color: #737373;
   --white-color: #ffffff;
   --small-fontsize: 1.2rem;
@@ -15,7 +15,9 @@
   --xl-medium-fontsize: 1.5rem;
   --large-fontsize: 4rem;
 }
-
+body {
+  display: flex;
+}
 .home-hero {
   width: 100%;
   height: 80vh;
@@ -28,6 +30,7 @@
   justify-content: flex-start;
   padding-left: 10rem;
   margin-bottom: 5rem;
+
 }
 
 .hometext span {
@@ -382,14 +385,14 @@
 
 .fourth-image {
   width: 42%;
-  height: inherit;
+  
   display: flex;
   align-items: end;
 }
 
 .personimg {
   width: 100%;
-  height: 800px;
+  height: 520px;
 }
 
 .fourth-text span {

@@ -25,7 +25,7 @@ const Header = () => {
       <div className="bg-[#252B42] py-4 hidden lg:block">
         <div className="container mx-auto flex justify-between items-center text-white text-sm">
           {/* Contact Information */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center ml-16 gap-4">
             <div className="flex items-center gap-1">
               <FiPhone />
               <p>(225) 555-0118</p>
@@ -42,7 +42,7 @@ const Header = () => {
           </p>
 
           {/* Social Media Links */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 mr-16">
             <p className="hidden md:block">Follow Us:</p>
             <Link
               href="https://www.instagram.com"
@@ -78,9 +78,9 @@ const Header = () => {
 
       {/* Navbar Section */}
       <div className="bg-white shadow-md border-b-2 border-[#E5E5E5] relative z-40">
-        <div className="container mx-auto flex items-center justify-between py-4">
+        <div className="container mx-auto flex items-center  justify-between py-4">
           {/* Logo */}
-          <div className="text-2xl font-bold text-[#252B42]">Bandage</div>
+          <div className="text-2xl ml-16 font-bold text-[#252B42]">Bandage</div>
 
           {/* Action Icons (Mobile and Desktop) */}
           <div className="flex items-center gap-4 md:hidden">
@@ -99,7 +99,7 @@ const Header = () => {
           </div>
 
           {/* Navigation Links */}
-          <nav className="hidden md:flex">
+          <nav className="hidden md:flex ml-4">
             <ul className="flex gap-8 text-sm font-medium text-[#737373] relative">
               <li>
                 <Link href="/" className="hover:text-[#23A6F0] transition-all">
@@ -140,7 +140,7 @@ const Header = () => {
           </nav>
 
           {/* Action Icons for Desktop */}
-          <div className="hidden md:flex items-center gap-6 text-[#23A6F0]">
+          <div className="hidden md:flex items-center mr-16 gap-6 text-[#23A6F0]">
             <button className="text-sm font-medium">Login/Register</button>
             <FiSearch className="text-lg cursor-pointer" />
             <FiShoppingCart className="text-lg cursor-pointer" />
